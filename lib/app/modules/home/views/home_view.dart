@@ -15,7 +15,7 @@ class HomeView extends GetView<HomeController> {
       body: Center(
         child: controller.obx(
           (state) => Text(
-            controller.user.value,
+            state?.toJson().toString() ?? '',
             style: TextStyle(fontSize: 20),
           ),
           onError: (error) => Text(error ?? 'Error'),

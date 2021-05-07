@@ -1,6 +1,6 @@
 # getx_project_demo
 
-An Example Flutter application using GetX as main framework and chopper as api generator.
+An example Flutter application using GetX as main framework and chopper as api generator.
 
 ## How to run
 **requirement:** Flutter version >= 2.0.0
@@ -15,7 +15,9 @@ After cloning this repo, under the root direcory, do:
 
 - run `flutter pub run build_runner build`
 
-This will generate `**.chopper.dart` in your direcory.(Adding to .gitigore is recommended?)
+3. Launch
+
+- run `flutter run`
 
 ## Add your own code
-[get_cli](https://github.com/jonataslaw/get_cli) is recommended to generated boilerplate code(binding, controller, view, model, etc).
+[get_cli](https://github.com/jonataslaw/get_cli) is recommended to generate boilerplate code(binding, controller, view, model, etc).

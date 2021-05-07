@@ -1,0 +1,11 @@
+{
+    "home": "主页",
+    "buttons": {
+        "login": "登陆",
+        "sign_in": "登陆",
+        "logout": "退出",
+        "sign_in_fb": "使用Facebook登陆",
+        "sign_in_google": "使用Google登陆",
+        "sign_in_apple": "使用Apple登陆"
+    }
+}

@@ -1,6 +1,6 @@
 # getx_project_demo
 
-An example Flutter application using GetX as main framework and chopper as api generator.
+A Flutter application example using GetX as main framework and chopper as api generator.
 
 ## How to run
 **requirement:** Flutter version >= 2.0.0

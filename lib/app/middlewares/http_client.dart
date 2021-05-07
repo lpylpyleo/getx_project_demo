@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:chopper/chopper.dart';
+import 'package:flutter/foundation.dart';
 import 'package:getx_project_demo/app/middlewares/model_converter.dart';
 import 'package:http/io_client.dart' as io;
 
@@ -16,6 +17,11 @@ class AppHttpClient extends ChopperClient {
           // https://github.com/HackerNews/API
           baseUrl: "https://hacker-news.firebaseio.com/v0/",
           converter: ModelConverter(),
+          interceptors: [
+            HeadersInterceptor({"foo": "bar"}),
+            if (kDebugMode) CurlInterceptor(),
+            if (kDebugMode) HttpLoggingInterceptor(),
+          ],
         );
 
   static bool _inited = false;

@@ -26,6 +26,7 @@ dependencies:
   get: ^4.1.4
   chopper: ^4.0.0-nullsafety.1 # wait for stable release
   http: any
+  logging: any
 
 
 

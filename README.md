@@ -5,7 +5,7 @@ A Flutter application example using GetX as main framework and chopper as api ge
 ## How to run
 **requirement:** Flutter version >= 2.0.0
 
-After cloning this repo, under the root direcory, do:
+After cloning this repo, under the root directory, do:
 
 1. Get All dependencies
 
